@@ -1,0 +1,11 @@
+//- About
+extends ../layouts/layout.pug
+
+block content
+
+  include ../mixins/mixins.pug
+
+  .container
+    p document
+    p: +linkToRelRoot("ああああああああ")
+    include ../_debug.pug

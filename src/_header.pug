@@ -1,0 +1,13 @@
+- var relRoot = htmlWebpackPlugin.props.relRoot
+
+include mixins/mixins.pug
+
+header
+  nav.navbar.navbar-inverse
+    .navbar-header
+      a.navbar-brand(href=relRoot) My site
+    ul.nav.navbar-nav
+      li: +linkToRelRoot("Home")
+      li: +linkToRelRoot("About", "about/")
+      li: +linkToRelRoot("Blog")
+      li: +linkToRelRoot("Contact")

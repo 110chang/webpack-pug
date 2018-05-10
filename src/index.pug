@@ -1,0 +1,14 @@
+//- Index
+extends layouts/layout.pug
+
+block content
+
+  - var relRoot = htmlWebpackPlugin.props.relRoot
+
+  include mixins/mixins.pug
+
+  .container
+    p document
+    p= relRoot
+    include _debug.pug
+    img(src=require("./img/dokokara-pc.png"))

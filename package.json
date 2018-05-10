@@ -1,0 +1,30 @@
+{
+  "name": "webpack-pug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config webpack.config.dev.js --inline",
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "Yuji Ito",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.15",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.26.0",
+    "image-webpack-loader": "^3.2.0",
+    "jquery": "^3.1.1",
+    "node-sass": "^4.4.0",
+    "pug": "^2.0.0-beta7",
+    "pug-loader": "^2.3.0",
+    "require-yaml": "0.0.1",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.14.0"
+  }
+}

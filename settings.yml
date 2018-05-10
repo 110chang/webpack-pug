@@ -1,0 +1,17 @@
+-
+  id: index
+  file: index
+  title: the index
+  meta:
+    description: A better default template for html-webpack-plugin.
+  chunks:
+    - app
+    - index
+-
+  id: about
+  file: about/index
+  title: about page
+  meta:
+    description: A better default template for html-webpack-plugin dayo.
+  chunks:
+    - app

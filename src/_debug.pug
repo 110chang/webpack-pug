@@ -1,0 +1,17 @@
+//- partial Debug
+
+- var files = htmlWebpackPlugin.files
+- var options = htmlWebpackPlugin.options
+
+table.table.table-striped
+  caption htmlWebpackPlugin.files
+  each v, i in files
+    tr
+      th= i
+      td= v
+table.table.table-striped
+  caption htmlWebpackPlugin.options
+  each v, i in options
+    tr
+      th= i
+      td= v

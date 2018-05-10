@@ -1,0 +1,10 @@
+//- Mixins
+
+-
+  var options = htmlWebpackPlugin.options
+  var relRoot = htmlWebpackPlugin.props.relRoot
+
+mixin linkToRelRoot(label, postfix)
+  - var url = relRoot
+  - url += postfix == null ? '' : postfix
+  a(href=url)= label
